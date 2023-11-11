@@ -8,7 +8,6 @@ balle = { x = largeurEcran/2, y = hauteurEcran/2, largeur = 20, hauteur = 20, vi
 function love.load()
     balle.x = balle.x - balle.largeur/2
     balle.y = balle.y - balle.hauteur/2
-    
 end
 
 function love.update()
